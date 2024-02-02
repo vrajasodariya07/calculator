@@ -1,0 +1,41 @@
+.main
+{
+  width: 30%;
+  text-align: center;
+  border: 2px solid #999999;
+  border-radius: 7%;
+  padding: 10px 10px;
+  transition: all 0.5s;
+  margin: 100px auto;
+}
+.main:hover
+{
+  border-color: Black;
+}
+.main:hover .border
+{
+  border-color: black;
+}
+.value input
+{
+  width: 22%;
+  margin: auto;
+  padding: 25px 10px;
+  border: 0;
+  font-size: 20px;
+  background-color: #d7d7d7;
+  margin: 5px;
+  transition: all 0.5s;
+  border-radius: 10%;
+}
+.value input:hover
+{
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+.border
+{
+  border-top: 2px solid #999999;
+  padding: 7px;
+  transition: all 0.5s;
+}
